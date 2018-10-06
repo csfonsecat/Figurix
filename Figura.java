@@ -9,13 +9,11 @@ public class Figura extends JFrame {
 	
 	public Figura() {
 		setLayout(null);
-		etiqueta1 = new JLabel("FIGURIX 1.0");
+		etiqueta1 = new JLabel("<html>FIGURIX 1.0 <p> SISTEMA DE FIGURAS GEOMETRICAS </html>");
 		etiqueta1.setBounds(10,20,300,30);
 		add(etiqueta1);
 		
-		etiqueta2 = new JLabel("SISTEMA DE FIGURAS GEOMETRICAS");
-		etiqueta2.setBounds(10,100,300,30);
-		add(etiqueta2);
+		
 	}
 	// Metodo principal de la clase principal 
 	public static void main (String Args[]) {
